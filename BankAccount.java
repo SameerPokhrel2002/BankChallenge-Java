@@ -7,6 +7,12 @@ public class BankAccount {
     private String email;
     private String phoneNumber;
 
+    // creating constructor
+
+    public BankAccount() {
+        System.out.println("Default constructor is called at the time of object creation!!");
+    }
+
     public String getAccountNumber() {
         return accountNumber;
     }
